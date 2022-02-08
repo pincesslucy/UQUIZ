@@ -1,0 +1,20 @@
+        <h2>
+            역사
+        </h2>
+        <div>
+            <span id="prog">1</span><span>/</span><span id="pages">8</span>
+        </div>
+        <div>
+            <span>HP : </span><span id="hp">100</span>
+            <div id="myProgress">
+                <div id="myBar"></div>
+              </div>
+        </div>
+        <article>
+        <p>
+            6.25전쟁의 발생 연도는 1950년이다
+        </p>
+            <a href="#!역사" onclick = "valueplus(); fetchpage('역사2'); prog();">O</a>
+            <a href="#!역사" onclick="prog(); move2(); fetchpage('역사2')">X</a>
+        </article>
+        <a class="btn blue" href="index.html">다시하기</a>

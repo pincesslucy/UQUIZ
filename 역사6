@@ -1,0 +1,5 @@
+        <p>
+        윤봉길은 도시락 폭탄을 던졌다6
+        </p>
+            <a href="#!역사" onclick = "prog(); move2(); fetchpage('역사7')">O</a>
+            <a href="#!역사" onclick="prog(); fetchpage('역사7')">X</a>

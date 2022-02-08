@@ -1,0 +1,17 @@
+        <h2>
+            상식
+        </h2>
+        <div>
+            <span>HP : </span><span id="hp">100</span>
+            <div id="myProgress">
+                <div id="myBar"></div>
+              </div>
+        </div>
+        <article>
+        <p>
+            6.25전쟁의 발생 연도는 1950년이다
+        </p>
+            <a href="#!상식" onclick = "fetchpage('상식2')">O</a>
+            <a href="#!상식" onclick="move2(); fetchpage('상식2')">X</a>
+        </article>
+        <a class="btn blue" href="index.html">다시하기</a>
