@@ -27,6 +27,11 @@ function fetchpageEnding(name){
     })
   });
 }
+  //점수산출
+  function score() {
+    const edit = document.getElementById('score');
+    edit.innerHTML = value + '점';
+  }
 
 //진행도
 function prog() {
@@ -38,6 +43,9 @@ function prog() {
       if(result.innerText > pages.innerText){
         result.innerText = 1;
         fetchpageEnding('ending');
+        setTimeout(function() {
+          score();
+          }, 2000);
       }
     }
 
@@ -53,6 +61,9 @@ function move2() {
       if(width.innerText <= 0){
         width.innerText = 100;
         fetchpageEnding('ending');
+        setTimeout(function() {
+          score();
+          }, 2000);
       }
     }
 
@@ -60,16 +71,8 @@ function move2() {
   //점수
   var value = 0;
   function valueplus(){
-      value += 1;
+      value += 12.5;
       console.log(value);
 
   }
   
-  //점수산출
-  var n = 1;
-  function score() {
-    if(n===1){
-    const edit = document.getElementById('score');
-    edit.innerHTML = value;
-    }
-  }

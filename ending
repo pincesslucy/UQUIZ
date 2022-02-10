@@ -1,11 +1,10 @@
 
         <h1>당신의 점수는?</h1>
         <div id="score">
-            <span></span>
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
         </div>
-        <a href="#!ending" onclick="score();">점수보기</a>   
+        </div>
         <div>
             <a class="btn blue" href="index.html">다시하기</a>
         </div>
-
-

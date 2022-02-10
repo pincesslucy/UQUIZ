@@ -1,5 +1,7 @@
-        <p>
-        윤봉길은 도시락 폭탄을 던졌다8
-        </p>
-            <a href="#!역사" onclick = "prog(); move2();">O</a>
-            <a href="#!역사" onclick="prog();">X</a>
+<div>
+            제너럴 셔먼호사건을 이유로 강화도를 공격해 온 사건은 병인박해이다
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!역사" onclick = " move2(); prog();">O</a>
+            <a class="btn btn-danger" href="#!역사" onclick="valueplus(); prog(); ">X</a>
+</div>

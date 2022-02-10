@@ -1,5 +1,7 @@
-        <p>
-        윤봉길은 도시락 폭탄을 던졌다3
-        </p>
-            <a href="#!역사" onclick = "prog(); move2(); fetchpage('역사4')">O</a>
-            <a href="#!역사" onclick="prog(); fetchpage('역사4')">X</a>
+<div>
+            삼국을 하나로 통일한 나라는 신라이다
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!역사" onclick = "valueplus(); fetchpage('역사4'); prog();">O</a>
+            <a class="btn btn-danger" href="#!역사" onclick="prog(); move2(); fetchpage('역사4');">X</a>
+</div>
