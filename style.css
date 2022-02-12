@@ -35,3 +35,52 @@
     margin-top: 100px;
     font-family: 'Black Han Sans', sans-serif;
   }
+  #myProgress2 {
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+  }
+  
+  #myBar2 {
+    width: 1%;
+    height: 10px;
+    background-color: rgb(55, 32, 255);
+  }
+  #gauge{
+    text-align: left;
+  }
+  #page{
+    text-align: left;
+  }
+  #pages{
+    display: none;
+  }
+  #head {
+    font-size: 100px;
+  }
+  #head2{
+    font-size: 50px;
+  }
+  #Q {
+    font-size: 30px;
+  }
+  #endinghead{
+    font-size: 70px;
+  }
+  #score{
+    font-size: 50px;
+  }
+  #copyr {
+    font-size: 15px;
+    font-family: initial;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    color: rgb(150, 150, 150);
+  }
+  #W{
+    display: none;
+  }
+  .accordion {
+    width: 70%;
+    margin: 0 auto;
+  }

@@ -34,35 +34,89 @@ function fetchpageEnding(name){
   }
 
 //진행도
+var i = 0;
+var width2 = 1;
+var num = 0;
 function prog() {
   const result = document.getElementById('prog');//결과
   const pages = document.getElementById('pages');//전체페이지
-  let number = result.innerText;//현재
-      number = parseInt(number)+1;
-      result.innerText = number;
-      if(result.innerText > pages.innerText){
+  
+  let number = num;//현재
+      number = (parseInt(number)+1);
+
+      var persent = (number / pages.innerText) * 100;
+      result.innerText = persent;
+      num = number;
+      
+      if (i == 0) {
+        i = 1;
+        var elem2 = document.getElementById("myBar2");
+        
+        var number2 = width2;
+        var id = setInterval(frame, 10);
+        function frame() {
+          if (width2 >= (number / pages.innerText) * 100) {
+            clearInterval(id);
+            i = 0;
+          } else {
+            number2++;
+            width2 = number2;
+            elem2.style.width = width2 + "%";
+          }
+        }
+      }
+
+      if(num >= pages.innerText){
         result.innerText = 1;
         fetchpageEnding('ending');
         setTimeout(function() {
           score();
+          while(x < wrong.length){
+            wrong[x] = x+1 + '. ' +wrong[x] + '<br>';
+          x=x+1;
+          }
+          document.getElementById('wrongcont').innerHTML = wrong; //오답넣기
           }, 2000);
       }
     }
 
     
-//체력바
+//체력바감소(오답)
+var bar = 100;
+var wrong = [];
+var x = 0;
 function move2() {
   var elem = document.getElementById("myBar");
   const width = document.getElementById('hp');//결과
-  let number = width.innerText;//현재
-      number = parseInt(number)-25;
-      width.innerText = number;
-      elem.style.width = number + "%";
+  let number3 = width.innerText;//현재
+      number3 = parseInt(number3)-25;
+      width.innerText = number3;
+        var id = setInterval(frame, 10);
+        function frame() {
+          if (bar <= number3) {
+            clearInterval(id);
+            i = 0;
+          } else {
+            bar--;
+            elem.style.width = bar + "%";
+          }
+        }
+
+      var Qcontent = document.getElementById('W').innerText;
+      //오답보기에 오답넣기
+      wrong.push(Qcontent);      
+      console.log(wrong);
+      //엔딩으로
       if(width.innerText <= 0){
         width.innerText = 100;
         fetchpageEnding('ending');
         setTimeout(function() {
-          score();
+          score();//스코어넣기
+          while(x < wrong.length){
+            wrong[x] = x+1 + '. ' +wrong[x] + '<br>';
+          x=x+1;
+          }
+          document.getElementById('wrongcont').innerHTML = wrong; //오답넣기(콤마제거필요)
           }, 2000);
       }
     }
@@ -72,7 +126,6 @@ function move2() {
   var value = 0;
   function valueplus(){
       value += 12.5;
-      console.log(value);
 
   }
   
