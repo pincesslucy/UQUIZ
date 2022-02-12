@@ -1,8 +1,0 @@
-<div id="Q">
-            윤봉길은 던진 폭탄은 도시락폭탄이다.
-        </div>
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <a class="btn btn-success" href="#!역사" onclick = " fetchpage('역사5'); prog(); move2();">O</a>
-            <a class="btn btn-danger" href="#!역사" onclick="valueplus(); prog();  fetchpage('역사5')">X</a>
-</div>
-<div id="W">윤봉길은 던진 폭탄은 <strong>물통형폭탄</strong>이다</div>

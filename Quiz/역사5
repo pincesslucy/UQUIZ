@@ -1,8 +1,0 @@
-<div id="Q">
-            이토히로부미를 암살한 독립운동가는 안중근이다
-        </div>
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <a class="btn btn-success" href="#!역사" onclick = "prog(); valueplus(); fetchpage('역사6');  ">O</a>
-            <a class="btn btn-danger" href="#!역사" onclick="prog();  fetchpage('역사6');move2();">X</a>
-</div>
-<div id="W">이토히로부미를 암살한 독립운동가는 안중근이다</div>
