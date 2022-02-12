@@ -1,0 +1,8 @@
+<div id="Q">
+            주몽의 아들인 온조가 세운 나라의 이름은 고구려이다
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!역사" onclick = " fetchpage('역사3'); prog(); move2();">O</a>
+            <a class="btn btn-danger" href="#!역사" onclick="prog();  fetchpage('역사3'); valueplus();">X</a>
+</div>
+<div id="W">주몽의 아들인 온조가 세운 나라의 이름은 <strong>백제</strong>이다</div>

@@ -1,0 +1,8 @@
+<div id="Q">
+            이육사의 이름은 죄수번호이다.
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!역사" onclick = "prog(); valueplus(); fetchpage('역사7');  ">O</a>
+            <a class="btn btn-danger" href="#!역사" onclick="prog();  fetchpage('역사7');move2();">X</a>
+</div>
+<div id="W">이육사의 이름은 죄수번호이다.</div>

@@ -1,0 +1,86 @@
+#myProgress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+#myBar {
+    width: 100%;
+    height: 30px;
+    background-color: green;
+  }
+  .btn{
+    text-decoration: none;
+    font-size:2rem;
+    color:white;
+    padding:10px 20px 10px 20px;
+    margin:20px;
+    display:inline-block;
+    border-radius: 10px;
+    transition:all 0.1s;
+    text-shadow: 0px -2px rgba(0, 0, 0, 0.44);
+    font-family: 'Black Han Sans', sans-serif;
+  }
+  .btn:active{
+    transform: translateY(3px);
+  }
+  .btn.blue{
+    background-color: #1f75d9;
+    border-bottom:5px solid #165195;
+  }
+  .btn.blue:active{
+    border-bottom:2px solid #165195;
+  }
+  .container{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Black Han Sans', sans-serif;
+  }
+  #myProgress2 {
+    width: 100%;
+    background-color: rgb(87, 87, 87);
+  }
+  
+  #myBar2 {
+    width: 1%;
+    height: 10px;
+    background-color: rgb(55, 32, 255);
+  }
+  #gauge{
+    text-align: left;
+  }
+  #page{
+    text-align: left;
+  }
+  #pages{
+    display: none;
+  }
+  #head {
+    font-size: 100px;
+  }
+  #head2{
+    font-size: 50px;
+  }
+  #Q {
+    font-size: 30px;
+  }
+  #endinghead{
+    font-size: 70px;
+  }
+  #score{
+    font-size: 50px;
+  }
+  #copyr {
+    font-size: 15px;
+    font-family: initial;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    color: rgb(150, 150, 150);
+  }
+  #W{
+    display: none;
+  }
+  .accordion {
+    width: 70%;
+    margin: 0 auto;
+  }

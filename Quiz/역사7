@@ -1,0 +1,8 @@
+<div id="Q">
+            자유당의 부정과 3.15 부정선거를 계기로 일어난 일은 6월 민주항쟁이다
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!역사" onclick = "prog(); fetchpage('역사8'); move2();">O</a>
+            <a class="btn btn-danger" href="#!역사" onclick="valueplus(); prog();  fetchpage('역사8');">X</a>
+</div>
+<div id="W">자유당의 부정과 3.15 부정선거를 계기로 일어난 일은 <strong>4.19혁명</strong>이다</div>
