@@ -1,17 +1,29 @@
-        <h2>
-            상식
-        </h2>
-        <div>
-            <span>HP : </span><span id="hp">100</span>
-            <div id="myProgress">
-                <div id="myBar"></div>
-              </div>
-        </div>
-        <article>
-        <p>
-            6.25전쟁의 발생 연도는 1950년이다
-        </p>
-            <a href="#!상식" onclick = "fetchpage('상식2')">O</a>
-            <a href="#!상식" onclick="move2(); fetchpage('상식2')">X</a>
-        </article>
-        <a class="btn blue" href="index.html">다시하기</a>
+<h2 id="head2">
+    상식
+</h2>
+<div id="page">
+    진행률 :<span id="prog">1</span>%<span id="pages">8</span>
+</div>
+<div id="myProgres2">
+    <div id="myBar2"></div>
+  </div>
+  <br>
+<div id="gauge"> 
+HP : <span id="hp">100</span>%
+</div>
+    <div id="myProgress">
+        <div id="myBar"></div>
+      </div>
+</div>
+<br>
+<article>
+<div id="Q">
+    색의 3원색은 빨강 초록 파랑이다
+</div>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a class="btn btn-success" href="#!상식" onclick = "move2(); fetchpage('상식2'); prog();">O</a>
+    <a class="btn btn-danger" href="#!상식" onclick="valueplus(); prog(); fetchpage('상식2');">X</a>
+</div>
+<div id="W">색의 3원색은 빨강 파랑 노랑이다</div>
+</article>
+<a class="btn blue" href="index.html">다시하기</a>

@@ -1,0 +1,8 @@
+<div id="Q">
+            귤껍질은 음식물 쓰래기다
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!상식" onclick = "valueplus(); prog(); ">O</a>
+            <a class="btn btn-danger" href="#!상식" onclick="move2(); prog();">X</a>
+</div>
+<div id="W">귤껍질은 음식물 쓰래기다</div>

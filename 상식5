@@ -1,0 +1,8 @@
+<div id="Q">
+            우체국 로고의 새는 까치이다
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="btn btn-success" href="#!상식" onclick = "move2(); fetchpage('상식6'); prog(); ">O</a>
+            <a class="btn btn-danger" href="#!상식" onclick="valueplus(); prog(); fetchpage('상식6');">X</a>
+</div>
+<div id="W">우체국 로고의 새는 제비이다</div>
