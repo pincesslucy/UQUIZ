@@ -1,8 +1,8 @@
 <div id="Q">
-            인류 최초로 직립보행을 한 인류는 오스트랄피테쿠스이다
+            윤봉길이 던진 폭탄은 도시락폭탄이다
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
-            <a class="btn btn-success" href="#!역사" onclick = "valueplus(); fetchpage('상식5'); prog(); ">O</a>
-            <a class="btn btn-danger" href="#!역사" onclick="prog(); move2(); fetchpage('상식5');">X</a>
+            <a class="btn btn-success" href="#!역사" onclick = "move2(); fetchpage('역사5'); prog(); ">O</a>
+            <a class="btn btn-danger" href="#!역사" onclick="valueplus(); prog(); fetchpage('역사5');">X</a>
 </div>
-<div id="W">인류 최초로 직립보행을 한 인류는 오스트랄피테쿠스이다</div>
+<div id="W">윤봉길이 던진 폭탄은 물통형폭탄이다</div>
